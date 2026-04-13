@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conway's Game of Life</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section> 
+       <u><h1>Conway's Game of Life</h1></u>
+        <div class="container">
+            <div id = "grid"></div> 
+        </div> 
+    </section> 
+     <div class = "controls">
+        <button id="playBtn" class="button-5" role="button">Play</button> 
+        <button id="clearBtn" class="button-5" role="button">Clear</button> 
+        
+        <input type = "range"  id = "msSlider" min = "10" max = "1000" value = "100" step = "10">
+        <label for="msSlider">ms (ms)</label>
+        <span id="msLabel">100</span>
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>
