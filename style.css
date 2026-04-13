@@ -1,7 +1,7 @@
 :root{
    --game-dimension: 50;
    --cell-dimension: 15px;
-   --grid-gap: calc(var(--cell-dimension)*0.2);
+   --grid-gap: calc(var(--cell-dimension)*0.1);
    --default-cell-color: #fff;
    --alive-cell-color: #000;
 }
